@@ -1,1 +1,336 @@
-/* You can add global styles to this file, and also import other style files */
+.btn { color: white!important}
+
+.color-brand { color: rgb(74, 87, 234)!important; }
+.color-brand2 { color: rgb(105, 113, 197)!important; }
+.color-gray { color: rgb(197, 200, 221)!important}
+b { font-weight: 600!important; }
+.x_card i {
+    font-size: 3rem!important;
+    background: rgb(246, 248, 252);
+    border-radius: 10px;
+    color: rgb(89, 100, 255);
+}
+
+.x_card_2 i {
+    font-size: 2.2rem!important;
+    color: rgb(89, 100, 255);
+}
+
+table { margin: 20px -2%; font-size: 14px; }
+
+table tr td  {
+    padding: 0 2%;
+    line-height:60px!important;
+    color: rgb(93, 112, 150)!important;
+}
+
+table tr th  {
+    padding: 0 2%;
+    line-height:30px!important;
+    color: rgb(93, 112, 150)!important;
+}
+
+table tr:hover td {
+    background: white!important;
+    border-radius:5px;
+    color: rgb(93, 112, 150)!important;
+}
+
+.elipsis i {
+    font-size:1.3rem!important;
+    background: none;
+    border-radius: none;
+    color: rgb(160, 173, 197);
+}
+
+.bg-info .elipsis i {
+    color: rgb(221, 226, 236);
+}
+
+body {
+    font-family:'poppins';
+    width:99%;
+}
+
+.plus_content {
+    background: rgb(246, 248, 252)!important;
+    padding: 20px 20px;
+    border-radius: 5px;
+    line-height: 39px;
+    color: #5b64de!important;
+    bottom: 90px;
+    position: fixed;
+    width: 250px;
+}
+
+.plus_content hr {
+    border-top: 1px solid rgba(206, 222, 255, 0.52)!important;
+}
+
+.sidebarlinks a { color: rgb(64, 65, 78)!important }
+.sidebarlinks a:hover {   text-decoration: none; font-weight:700; } 
+
+.x_menu .avatarimg {
+    bottom: 30px;
+    position: fixed;
+    left: 30px!important;
+    width:40px!important;
+    border:2px solid white;
+}
+ 
+.plus_content a { color: #5b64de!important;}
+.plus_content a:hover { 
+    text-decoration: none;
+    color: #5b64de!important; 
+    font-weight: 700;}
+
+.x_container {
+    background: rgb(246, 248, 252)!important
+}
+
+.sidebarfolders ul li {
+    list-style-type : none;
+}
+.logo {
+    WIDTH: 100%!important; 
+    height:auto!important;
+    padding: 0 10px;
+}
+ .x_menu {
+     background: rgb(89, 100, 255);
+ }
+
+ .x_menu_mobile {
+    background: rgb(89, 100, 255);
+    width:100%;
+    padding: 0;
+    display: block!important;
+}
+
+.x_menu_mobile ul {
+    list-style-type:none;
+    padding-left: 0;
+    margin-left:0;
+}
+
+.x_menu_mobile ul li {
+     display: inline-block;
+    padding: 15px 12px;
+    color: white!important;
+}
+
+.x_menu_mobile ul li:hover,  .x_menu_mobile ul .active {
+    background: #6b75f7;
+    border-bottom: 3px solid white;
+}
+
+.x_menu_mobile ul li a i {
+    color:white!important;
+    font-size: 25px;
+}
+
+ .x_menu ul {
+     list-style-type: none;
+     padding-left: 0;
+     margin-left:0;
+ }
+
+ .x_menu ul li {
+     padding : 20px 0;
+     text-align: center;
+     border-left: 3px solid rgb(89, 100, 255);
+ }
+
+ .x_menu ul li:hover,  .x_menu ul .active {
+    background: #6b75f7;
+    border-left: 3px solid white;
+}
+
+ .x_menu ul li a i {
+     color:white!important;
+     font-size: 25px;
+ }
+
+.x_badge {
+text-align: center;
+    width: 33px;
+    line-height: 26px;
+    font-size: .7rem;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+
+.media h5 {
+    font-size: 17px!important;
+    color: #53545a!important;
+    margin-bottom: 0px!important;  
+}
+
+.media .spanb {
+    font-size: 20px!important;
+    line-height: 35px;
+    color: rgb(89, 100, 255)!important;
+}
+.media .spansmall {
+    font-size: 13px!important;
+ }
+
+table th { cursor: pointer;}
+
+.x_badge, .media i { font-size: 15px; color:white!important }
+
+.bg-info { background-color: rgb(89, 100, 255)!important }
+.bg-warning { background-color: rgb(251, 188, 68)!important }
+
+.avatarimg {
+    width:35px!important; 
+    height:auto!important;
+    border-radius: 100%!important;
+    padding : 1px;
+    margin-left:-10px!important;
+}
+
+.input-group-text {
+    background: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+    height:50px;
+}
+
+input.form-control {
+    height:50px;
+    background: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: transparent;
+}
+
+.upgradediv {
+    bottom: 30px;
+    position: absolute;
+    width: 82%;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    padding: 20px 20px;
+}
+
+.upgradediv img {
+     height: auto;
+    max-width: 280px;
+    margin-bottom: 20px;
+}
+
+.plusbtn {
+    background: rgb(89, 100, 255);
+    padding:  7px 15px;
+    border-radius: 6px;
+    color: white;
+    bottom: 30px;
+    position: fixed;
+    width:250px;
+    cursor: pointer;
+}
+
+.plusbtn .plusbtn_text {
+    color: white;
+    line-height: 31px;
+    padding: 0px 20px;
+}
+
+.plusbtn .plusbtn_icon {
+    color: white!important;
+    background: #7d85e8;
+    padding: 4px 6px;
+    border-radius: 5px;
+}
+
+.plusbtn .plusbtn_icon i { color:white; }
+
+.upgradediv h2 {
+    font-size: 22px;
+    margin-bottom:15px;
+}
+
+.upgradediv h4 {
+    color: gray;
+    font-size: 16px;
+    margin-bottom:30px;
+}
+
+.upgradediv .btn {
+    color: white
+}
+
+.usersplus {
+    background: white;
+    color: #97a5c1;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 100%!important;
+    padding: 6px 8px;
+    margin-top: 2px;
+    margin-left: -10px!important;
+}
+
+.btn-primary {
+    background-color: #5964ff!important;
+    border-color: #5964ff!important;
+}
+
+.btn-primary:hover {
+    background-color: #4550e7!important;
+    border-color: #4550e7!important;
+}
+
+.badge-success {
+    background-color: #b3dcbd;
+}
+
+.badge-success i { color: green!important }
+
+.badge-primary {
+    background-color: #b8bcff;
+}
+
+.badge-primary i { color: #666ab1!important }
+
+.badge-danger {
+    background-color: #f5cbcf;
+}
+
+.badge-danger i {
+   color: #b64d57!important;
+}
+
+.badge-info {
+    background-color: #94c6ce;
+}
+
+.badge-info i {
+   color: #17a2b8!important;
+}
+
+.badge-warning {
+    background-color: #eceba7;
+}
+
+.badge-warning i {
+   color: #a3a549!important;
+}
+
+.colmenu { display: flex;}
+
+.x_menu_mobile { display: none!important;}
+ 
+.show-mobile { display: none;}
+@media (max-width: 600px) { 
+    body { width:100%}
+    .x_menu_mobile { display: block!important;}
+    .colmenu, .colmenu .row { display: block;}
+    .hidden-mobile { display: none!important;}
+    .show-mobile { display: block!important;}
+}
+
+ 
